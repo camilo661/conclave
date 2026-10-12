@@ -26,6 +26,12 @@ let package = Package(
             dependencies: ["ConclaveCore", "ConclaveHistory", "ConclavePrivacy", "ConclaveSearch", "ConclaveVoice"]
         ),
 
+        // SwiftUI views and theming.
+        .target(
+            name: "ConclaveUI",
+            dependencies: ["ConclaveCore", "ConclaveBrowser", "ConclaveHistory", "ConclaveVoice"]
+        ),
+
         .testTarget(name: "ConclaveCoreTests", dependencies: ["ConclaveCore"]),
         .testTarget(name: "ConclaveHistoryTests", dependencies: ["ConclaveHistory", "ConclaveCore"]),
         .testTarget(name: "ConclavePrivacyTests", dependencies: ["ConclavePrivacy"]),

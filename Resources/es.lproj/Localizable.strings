@@ -1,0 +1,118 @@
+/* Tabs */
+"tab.new" = "Nueva pestaña";
+"tab.close" = "Cerrar pestaña";
+"tab.untitled" = "Nueva pestaña";
+"tab.newPrivate" = "Nueva pestaña privada";
+"tab.privateUntitled" = "Pestaña privada";
+
+/* Private browsing */
+"private.badge" = "Privada";
+"private.title" = "Navegación privada";
+"private.detail" = "Conclave no guarda el historial, las cookies, la caché ni los datos de los sitios que visites en las pestañas privadas. Todo se borra al cerrar la última.";
+"private.caveat" = "Tu proveedor de internet, el administrador de tu red y los sitios que visites aún pueden ver tu actividad.";
+
+/* Toolbar */
+"toolbar.back" = "Atrás";
+"toolbar.forward" = "Adelante";
+"toolbar.reload" = "Recargar página";
+"toolbar.stop" = "Detener carga";
+"toolbar.history" = "Historial";
+"toolbar.shields" = "Escudos de privacidad";
+"toolbar.voice" = "Buscar por voz";
+"toolbar.theme" = "Cambiar tema";
+"toolbar.settings" = "Ajustes";
+"address.placeholder" = "Busca o escribe una dirección";
+"address.secure" = "Conexión segura";
+"address.insecure" = "Conexión no segura";
+
+/* Start page */
+"start.tagline" = "Navega en privado. Busca con tu voz.";
+"start.searchPlaceholder" = "Busca en la web sin que te rastreen";
+"start.voiceHint" = "Pulsa el micrófono y di lo que quieres buscar, o pídele algo al navegador";
+"start.voiceExamples" = "Prueba: «el clima de hoy» · «abrir wikipedia» · «cambia el tema a blanco» · «abre navegación privada» · «activa los escudos»";
+
+"start.recentSearches" = "Búsquedas recientes";
+
+/* History */
+"history.title" = "Historial";
+"history.filterPlaceholder" = "Buscar en el historial";
+"history.empty" = "Aún no hay nada en el historial.";
+"history.noMatches" = "No hay coincidencias.";
+"history.today" = "Hoy";
+"history.yesterday" = "Ayer";
+"history.searchLabel" = "Búsqueda";
+"history.remove" = "Eliminar del historial";
+"history.clearAll" = "Borrar todo el historial";
+"history.privateNote" = "Las pestañas privadas no se guardan en el historial.";
+
+/* Voice */
+"voice.listening" = "Escuchando…";
+"voice.speakNow" = "Di lo que quieres buscar o hacer";
+"voice.cancel" = "Cancelar";
+"voice.permissionDenied" = "Conclave necesita permiso para usar el micrófono y el reconocimiento de voz. Actívalo en Ajustes del Sistema › Privacidad y seguridad.";
+"voice.unavailable" = "El reconocimiento de voz no está disponible en este momento.";
+"voice.nothingHeard" = "No te escuché. Inténtalo de nuevo.";
+
+"voice.understanding" = "Entendiendo…";
+
+/* Voice confirmations */
+"done.themeDark" = "Tema negro activado";
+"done.themeLight" = "Tema blanco activado";
+"done.themeToggled" = "Tema cambiado";
+"done.newTab" = "Nueva pestaña abierta";
+"done.privateTab" = "Navegación privada abierta";
+"done.closeTab" = "Pestaña cerrada";
+"done.back" = "Página anterior";
+"done.forward" = "Página siguiente";
+"done.reload" = "Página recargada";
+"done.shieldsOn" = "Escudos activados";
+"done.shieldsOff" = "Escudos desactivados";
+"done.httpsOn" = "HTTPS siempre: activado";
+"done.httpsOff" = "HTTPS siempre: desactivado";
+"done.clearOnExitOn" = "Los datos se borrarán al salir";
+"done.clearOnExitOff" = "Los datos ya no se borrarán al salir";
+"done.voiceOnLaunchOn" = "Búsqueda por voz al abrir: activada";
+"done.voiceOnLaunchOff" = "Búsqueda por voz al abrir: desactivada";
+"done.dataCleared" = "Datos de navegación e historial borrados";
+"done.historyShown" = "Historial abierto";
+"done.historyCleared" = "Historial borrado";
+
+/* Shields */
+"shields.title" = "Escudos";
+"shields.on" = "Protección activada";
+"shields.off" = "Protección desactivada";
+"shields.blockTrackers" = "Bloquear rastreadores y anuncios";
+"shields.blockTrackersDetail" = "También bloquea cookies de terceros y limpia los parámetros de rastreo de los enlaces.";
+"shields.httpsOnly" = "Usar siempre HTTPS";
+"shields.httpsOnlyDetail" = "Cifra la conexión y te avisa antes de abrir un sitio no seguro.";
+"shields.clearOnExit" = "Borrar datos al salir";
+"shields.clearOnExitDetail" = "Elimina el historial, las cookies, la caché y el almacenamiento de los sitios al cerrar Conclave.";
+"shields.clearNow" = "Borrar datos e historial ahora";
+"shields.cleared" = "Datos borrados";
+
+/* Settings */
+"settings.title" = "Ajustes";
+"settings.theme" = "Tema";
+"settings.themeDark" = "Negro";
+"settings.themeLight" = "Blanco";
+"settings.voiceOnLaunch" = "Búsqueda por voz al abrir";
+"settings.voiceOnLaunchDetail" = "Conclave empieza a escucharte en cuanto se abre.";
+
+/* Search results page */
+"search.button" = "Buscar";
+"search.noResults" = "No se encontraron resultados para «%@».";
+"search.failed" = "No se pudieron obtener los resultados. Revisa tu conexión e inténtalo de nuevo.";
+
+/* Page notices */
+"notice.insecureTitle" = "Este sitio no admite una conexión segura";
+"notice.insecureMessage" = "%@ no ofrece HTTPS. Si continúas, otras personas en tu red podrían ver o modificar lo que envías y recibes.";
+"notice.insecureContinue" = "Continuar sin protección";
+"notice.goBack" = "Volver";
+"notice.errorTitle" = "No se pudo cargar la página";
+"notice.retry" = "Reintentar";
+
+/* Menu */
+"menu.navigation" = "Navegación";
+"menu.focusAddress" = "Ir a la barra de direcciones";
+"menu.voiceSearch" = "Buscar por voz";
+"menu.showHistory" = "Mostrar historial";
