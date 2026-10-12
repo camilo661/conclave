@@ -40,3 +40,24 @@ import Testing
     }
 }
 
+@Suite struct ContentRuleBuilderTests {
+    @Test func producesOneBlockRulePerDomainPlusCookieRule() throws {
+        let rules = ContentRuleBuilder.trackerRules(domains: ["tracker.example", "ads.example"])
+        #expect(rules.count == 3)
+
+        let json = ContentRuleBuilder.encode(rules)
+        let decoded = try JSONSerialization.jsonObject(with: Data(json.utf8)) as? [[String: Any]]
+        #expect(decoded?.count == 3)
+    }
+
+    @Test func filterMatchesDomainAndSubdomainsOnly() throws {
+        let regex = try NSRegularExpression(pattern: ContentRuleBuilder.urlFilter(forDomain: "tracker.example"))
+        func matches(_ string: String) -> Bool {
+            regex.firstMatch(in: string, range: NSRange(string.startIndex..., in: string)) != nil
+        }
+        #expect(matches("https://tracker.example/pixel.gif"))
+        #expect(matches("https://cdn.tracker.example:443/a.js"))
+        #expect(!matches("https://nottracker.example/a.js"))
+        #expect(!matches("https://example.com/?u=https://tracker.example/"))
+    }
+}
