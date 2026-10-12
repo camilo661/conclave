@@ -45,3 +45,13 @@
 "history.clearAll" = "Borrar todo el historial";
 "history.privateNote" = "Las pestañas privadas no se guardan en el historial.";
 
+/* Voice */
+"voice.listening" = "Escuchando…";
+"voice.speakNow" = "Di lo que quieres buscar o hacer";
+"voice.cancel" = "Cancelar";
+"voice.permissionDenied" = "Conclave necesita permiso para usar el micrófono y el reconocimiento de voz. Actívalo en Ajustes del Sistema › Privacidad y seguridad.";
+"voice.unavailable" = "El reconocimiento de voz no está disponible en este momento.";
+"voice.nothingHeard" = "No te escuché. Inténtalo de nuevo.";
+
+"voice.understanding" = "Entendiendo…";
+
