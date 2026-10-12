@@ -111,3 +111,8 @@
 "notice.errorTitle" = "No se pudo cargar la página";
 "notice.retry" = "Reintentar";
 
+/* Menu */
+"menu.navigation" = "Navegación";
+"menu.focusAddress" = "Ir a la barra de direcciones";
+"menu.voiceSearch" = "Buscar por voz";
+"menu.showHistory" = "Mostrar historial";
