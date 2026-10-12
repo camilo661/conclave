@@ -5,3 +5,9 @@
 "tab.newPrivate" = "Nueva pestaña privada";
 "tab.privateUntitled" = "Pestaña privada";
 
+/* Private browsing */
+"private.badge" = "Privada";
+"private.title" = "Navegación privada";
+"private.detail" = "Conclave no guarda el historial, las cookies, la caché ni los datos de los sitios que visites en las pestañas privadas. Todo se borra al cerrar la última.";
+"private.caveat" = "Tu proveedor de internet, el administrador de tu red y los sitios que visites aún pueden ver tu actividad.";
+
