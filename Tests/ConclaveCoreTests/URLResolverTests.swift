@@ -40,3 +40,15 @@ import Testing
     }
 }
 
+@Suite struct InternalPageTests {
+    @Test func searchAddressRoundTripsTheQuery() {
+        let query = "¿qué es C++ & \"Swift\"?"
+        #expect(InternalPage.searchQuery(from: InternalPage.searchURL(for: query)) == query)
+    }
+
+    @Test func rejectsOtherAddresses() {
+        #expect(InternalPage.searchQuery(from: URL(string: "https://search/?q=a")!) == nil)
+        #expect(InternalPage.searchQuery(from: URL(string: "conclave://settings?q=a")!) == nil)
+        #expect(InternalPage.searchQuery(from: URL(string: "conclave://search?q=%20")!) == nil)
+    }
+}
