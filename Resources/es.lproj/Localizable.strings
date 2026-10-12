@@ -90,3 +90,11 @@
 "shields.clearNow" = "Borrar datos e historial ahora";
 "shields.cleared" = "Datos borrados";
 
+/* Settings */
+"settings.title" = "Ajustes";
+"settings.theme" = "Tema";
+"settings.themeDark" = "Negro";
+"settings.themeLight" = "Blanco";
+"settings.voiceOnLaunch" = "Búsqueda por voz al abrir";
+"settings.voiceOnLaunchDetail" = "Conclave empieza a escucharte en cuanto se abre.";
+
