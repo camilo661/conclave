@@ -77,3 +77,16 @@
 "done.historyShown" = "Historial abierto";
 "done.historyCleared" = "Historial borrado";
 
+/* Shields */
+"shields.title" = "Escudos";
+"shields.on" = "Protección activada";
+"shields.off" = "Protección desactivada";
+"shields.blockTrackers" = "Bloquear rastreadores y anuncios";
+"shields.blockTrackersDetail" = "También bloquea cookies de terceros y limpia los parámetros de rastreo de los enlaces.";
+"shields.httpsOnly" = "Usar siempre HTTPS";
+"shields.httpsOnlyDetail" = "Cifra la conexión y te avisa antes de abrir un sitio no seguro.";
+"shields.clearOnExit" = "Borrar datos al salir";
+"shields.clearOnExitDetail" = "Elimina el historial, las cookies, la caché y el almacenamiento de los sitios al cerrar Conclave.";
+"shields.clearNow" = "Borrar datos e historial ahora";
+"shields.cleared" = "Datos borrados";
+
