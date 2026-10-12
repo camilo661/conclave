@@ -20,6 +20,12 @@ let package = Package(
         // Speech recognition and spoken-command interpretation.
         .target(name: "ConclaveVoice"),
 
+        // Tabs, navigation policy and the browsing session.
+        .target(
+            name: "ConclaveBrowser",
+            dependencies: ["ConclaveCore", "ConclaveHistory", "ConclavePrivacy", "ConclaveSearch", "ConclaveVoice"]
+        ),
+
         .testTarget(name: "ConclaveCoreTests", dependencies: ["ConclaveCore"]),
         .testTarget(name: "ConclaveHistoryTests", dependencies: ["ConclaveHistory", "ConclaveCore"]),
         .testTarget(name: "ConclavePrivacyTests", dependencies: ["ConclavePrivacy"]),
