@@ -11,3 +11,17 @@
 "private.detail" = "Conclave no guarda el historial, las cookies, la caché ni los datos de los sitios que visites en las pestañas privadas. Todo se borra al cerrar la última.";
 "private.caveat" = "Tu proveedor de internet, el administrador de tu red y los sitios que visites aún pueden ver tu actividad.";
 
+/* Toolbar */
+"toolbar.back" = "Atrás";
+"toolbar.forward" = "Adelante";
+"toolbar.reload" = "Recargar página";
+"toolbar.stop" = "Detener carga";
+"toolbar.history" = "Historial";
+"toolbar.shields" = "Escudos de privacidad";
+"toolbar.voice" = "Buscar por voz";
+"toolbar.theme" = "Cambiar tema";
+"toolbar.settings" = "Ajustes";
+"address.placeholder" = "Busca o escribe una dirección";
+"address.secure" = "Conexión segura";
+"address.insecure" = "Conexión no segura";
+
