@@ -30,5 +30,7 @@ public enum TrackerBlocklist {
         "mouseflow.com", "crazyegg.com", "chartbeat.com", "optimizely.com",
         "mc.yandex.ru", "nr-data.net", "branch.io", "appsflyer.com", "adjust.com",
         "luckyorange.com", "inspectlet.com", "smartlook.com",
+        // Ad verification
+        "moatads.com", "adsafeprotected.com", "doubleverify.com",
     ]
 }
