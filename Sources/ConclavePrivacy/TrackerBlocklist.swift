@@ -20,5 +20,9 @@ public enum TrackerBlocklist {
         "33across.com", "sharethrough.com", "teads.tv", "zedo.com", "media.net",
         "advertising.com", "mathtag.com", "turn.com", "yieldmo.com",
         "indexww.com", "lijit.com", "sovrn.com", "triplelift.com", "gumgum.com",
+        // Data brokers and identity graphs
+        "bluekai.com", "demdex.net", "omtrdc.net", "krxd.net", "exelator.com",
+        "rlcdn.com", "tapad.com", "everesttech.net", "agkn.com", "crwdcntrl.net",
+        "adsymptotic.com", "liadm.com", "id5-sync.com",
     ]
 }
