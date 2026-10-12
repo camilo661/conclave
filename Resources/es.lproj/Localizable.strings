@@ -33,3 +33,15 @@
 
 "start.recentSearches" = "Búsquedas recientes";
 
+/* History */
+"history.title" = "Historial";
+"history.filterPlaceholder" = "Buscar en el historial";
+"history.empty" = "Aún no hay nada en el historial.";
+"history.noMatches" = "No hay coincidencias.";
+"history.today" = "Hoy";
+"history.yesterday" = "Ayer";
+"history.searchLabel" = "Búsqueda";
+"history.remove" = "Eliminar del historial";
+"history.clearAll" = "Borrar todo el historial";
+"history.privateNote" = "Las pestañas privadas no se guardan en el historial.";
+
