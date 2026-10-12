@@ -25,3 +25,11 @@
 "address.secure" = "Conexión segura";
 "address.insecure" = "Conexión no segura";
 
+/* Start page */
+"start.tagline" = "Navega en privado. Busca con tu voz.";
+"start.searchPlaceholder" = "Busca en la web sin que te rastreen";
+"start.voiceHint" = "Pulsa el micrófono y di lo que quieres buscar, o pídele algo al navegador";
+"start.voiceExamples" = "Prueba: «el clima de hoy» · «abrir wikipedia» · «cambia el tema a blanco» · «abre navegación privada» · «activa los escudos»";
+
+"start.recentSearches" = "Búsquedas recientes";
+
