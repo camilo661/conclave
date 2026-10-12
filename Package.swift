@@ -8,6 +8,10 @@ let package = Package(
         // Shared models, settings, localization and URL resolution. No UI, no WebKit.
         .target(name: "ConclaveCore"),
 
+        // Tracker blocking, HTTPS upgrading, hardened web view configuration.
+        .target(name: "ConclavePrivacy", dependencies: ["ConclaveCore"]),
+
         .testTarget(name: "ConclaveCoreTests", dependencies: ["ConclaveCore"]),
+        .testTarget(name: "ConclavePrivacyTests", dependencies: ["ConclavePrivacy"]),
     ]
 )
