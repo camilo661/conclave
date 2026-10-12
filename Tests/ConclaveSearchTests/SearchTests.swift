@@ -48,3 +48,28 @@ import Testing
     }
 }
 
+@Suite struct SearchPageRendererTests {
+    @Test func escapesEverythingThatComesFromOutside() {
+        let hostile = SearchResult(
+            title: "<script>alert(1)</script>",
+            url: URL(string: "https://example.com/?x=%22%3E%3Cscript%3E")!,
+            snippet: "\"><img src=x onerror=alert(1)>"
+        )
+        let page = SearchPageRenderer.page(query: "</title><script>x</script>", content: .results([hostile]))
+
+        #expect(!page.contains("<script"))
+        #expect(!page.contains("<img"))
+        #expect(page.contains("&lt;script&gt;alert(1)&lt;/script&gt;"))
+    }
+
+    @Test func forbidsScriptsAndRemoteContent() {
+        let page = SearchPageRenderer.page(query: "a", content: .results([]))
+        #expect(page.contains("default-src 'none'"))
+    }
+
+    @Test func linksPointStraightAtTheDestination() {
+        let result = SearchResult(title: "Ejemplo", url: URL(string: "https://example.com/a")!, snippet: "")
+        let page = SearchPageRenderer.page(query: "a", content: .results([result]))
+        #expect(page.contains("<a href=\"https://example.com/a\""))
+    }
+}
