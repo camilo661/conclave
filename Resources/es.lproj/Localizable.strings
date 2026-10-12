@@ -98,3 +98,8 @@
 "settings.voiceOnLaunch" = "Búsqueda por voz al abrir";
 "settings.voiceOnLaunchDetail" = "Conclave empieza a escucharte en cuanto se abre.";
 
+/* Search results page */
+"search.button" = "Buscar";
+"search.noResults" = "No se encontraron resultados para «%@».";
+"search.failed" = "No se pudieron obtener los resultados. Revisa tu conexión e inténtalo de nuevo.";
+
