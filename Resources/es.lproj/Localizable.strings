@@ -103,3 +103,11 @@
 "search.noResults" = "No se encontraron resultados para «%@».";
 "search.failed" = "No se pudieron obtener los resultados. Revisa tu conexión e inténtalo de nuevo.";
 
+/* Page notices */
+"notice.insecureTitle" = "Este sitio no admite una conexión segura";
+"notice.insecureMessage" = "%@ no ofrece HTTPS. Si continúas, otras personas en tu red podrían ver o modificar lo que envías y recibes.";
+"notice.insecureContinue" = "Continuar sin protección";
+"notice.goBack" = "Volver";
+"notice.errorTitle" = "No se pudo cargar la página";
+"notice.retry" = "Reintentar";
+
