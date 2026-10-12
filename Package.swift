@@ -4,6 +4,9 @@ import PackageDescription
 let package = Package(
     name: "Conclave",
     platforms: [.macOS(.v14)],
+    products: [
+        .executable(name: "Conclave", targets: ["Conclave"])
+    ],
     targets: [
         // Shared models, settings, localization and URL resolution. No UI, no WebKit.
         .target(name: "ConclaveCore"),
@@ -30,6 +33,12 @@ let package = Package(
         .target(
             name: "ConclaveUI",
             dependencies: ["ConclaveCore", "ConclaveBrowser", "ConclaveHistory", "ConclaveVoice"]
+        ),
+
+        // Application entry point and composition root.
+        .executableTarget(
+            name: "Conclave",
+            dependencies: ["ConclaveCore", "ConclaveHistory", "ConclaveVoice", "ConclaveBrowser", "ConclaveUI"]
         ),
 
         .testTarget(name: "ConclaveCoreTests", dependencies: ["ConclaveCore"]),
