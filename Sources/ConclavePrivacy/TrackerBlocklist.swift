@@ -24,5 +24,11 @@ public enum TrackerBlocklist {
         "bluekai.com", "demdex.net", "omtrdc.net", "krxd.net", "exelator.com",
         "rlcdn.com", "tapad.com", "everesttech.net", "agkn.com", "crwdcntrl.net",
         "adsymptotic.com", "liadm.com", "id5-sync.com",
+        // Analytics and session recording
+        "scorecardresearch.com", "quantserve.com", "hotjar.com", "mixpanel.com",
+        "segment.io", "segment.com", "amplitude.com", "fullstory.com",
+        "mouseflow.com", "crazyegg.com", "chartbeat.com", "optimizely.com",
+        "mc.yandex.ru", "nr-data.net", "branch.io", "appsflyer.com", "adjust.com",
+        "luckyorange.com", "inspectlet.com", "smartlook.com",
     ]
 }
