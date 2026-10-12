@@ -55,3 +55,25 @@
 
 "voice.understanding" = "Entendiendo…";
 
+/* Voice confirmations */
+"done.themeDark" = "Tema negro activado";
+"done.themeLight" = "Tema blanco activado";
+"done.themeToggled" = "Tema cambiado";
+"done.newTab" = "Nueva pestaña abierta";
+"done.privateTab" = "Navegación privada abierta";
+"done.closeTab" = "Pestaña cerrada";
+"done.back" = "Página anterior";
+"done.forward" = "Página siguiente";
+"done.reload" = "Página recargada";
+"done.shieldsOn" = "Escudos activados";
+"done.shieldsOff" = "Escudos desactivados";
+"done.httpsOn" = "HTTPS siempre: activado";
+"done.httpsOff" = "HTTPS siempre: desactivado";
+"done.clearOnExitOn" = "Los datos se borrarán al salir";
+"done.clearOnExitOff" = "Los datos ya no se borrarán al salir";
+"done.voiceOnLaunchOn" = "Búsqueda por voz al abrir: activada";
+"done.voiceOnLaunchOff" = "Búsqueda por voz al abrir: desactivada";
+"done.dataCleared" = "Datos de navegación e historial borrados";
+"done.historyShown" = "Historial abierto";
+"done.historyCleared" = "Historial borrado";
+
